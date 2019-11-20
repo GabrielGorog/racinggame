@@ -1,5 +1,7 @@
 package org.fasttrackit;
 
+import java.time.LocalDate;
+
 public class Vehicle {
 
     // instance variables
@@ -10,5 +12,8 @@ public class Vehicle {
     double fuelLevel;
     double traveledDistance;
     boolean running;
+
+    // Date creationDate = new Date(2019. 30, 11);
+    // LocalDate createdDate = LocalDate.now().minusWeeks(2);
 
 }
