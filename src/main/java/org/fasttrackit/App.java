@@ -16,6 +16,8 @@ public class App
         Game game = new Game();
         game.start();
 
+        Car carWithDefaultEngine = new Car();
+
         Engine carEngine = new Engine();
         carEngine.manufacturer = "Renault";
         carEngine.capacity = 1.5;
@@ -37,6 +39,7 @@ public class App
         double acceletarionDistance = carReference .accelerate(200,1);
 
         System.out.println("Acceleration distance: " + acceletarionDistance);
+        double accelerationDistance = carReference.accelerate(120);
 
         Mechanic mechanic = new Mechanic();
         mechanic.repairVehicle(carReference);
