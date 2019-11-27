@@ -32,7 +32,7 @@ public class App
         System.out.println(carReference.engine.manufacturer);
         System.out.println(carReference.engine.capacity);
 
-        double acceletarionDistance = carReference .accelerate(60,1);
+        double acceletarionDistance = carReference .accelerate(200,1);
 
         System.out.println("Acceleration distance: " + acceletarionDistance);
 
