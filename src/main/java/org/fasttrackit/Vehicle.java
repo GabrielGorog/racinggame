@@ -131,4 +131,17 @@ public class Vehicle {
     // Date creationDate = new Date(2019. 30, 11);
     // LocalDate createdDate = LocalDate.now().minusWeeks(2);
 
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", mileage=" + mileage +
+                ", maxSpeed=" + maxSpeed +
+                ", fuelLevel=" + fuelLevel +
+                ", traveledDistance=" + traveledDistance +
+                ", running=" + running +
+                '}';
+    }
 }

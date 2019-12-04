@@ -16,6 +16,14 @@ public class App
         Game game = new Game();
         game.start();
 
+        JokerVehicle joker = new JokerVehicle();
+        joker.setName("Joker");
+        joker.setFuelLevel(80);
+
+        joker.accelerate(60, 1);
+
+        System.out.println("Joker's total distance: " + joker.getTraveledDistance());
+
         Car carWithDefaultEngine = new Car();
 
         Engine carEngine = new Engine();
