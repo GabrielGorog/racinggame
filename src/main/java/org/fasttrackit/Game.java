@@ -56,11 +56,12 @@ public class Game {
             return selectedTrack;
         }
 
-
         catch (InputMismatchException e) {
             throw new RuntimeException("You have entered and invalid value.");
         } catch (ArrayIndexOutOfBoundsException e) {
             throw new Exception("You have selected a non-existing track.");
+        } finally {
+            System.out.println("Always executed");
         }
     }
 
