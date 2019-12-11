@@ -61,7 +61,7 @@ public class Vehicle {
         System.out.println("Total traveled distance: " + traveledDistance);
 
         double usedFuelWithStandardMileage = distance * mileage / 100;
-        System.out.println("Used fuel with current mileage : " + usedFuelWithStandardMileage);
+        System.out.println("Used fuel with standard mileage : " + usedFuelWithStandardMileage);
 
         double usedFuelWithCurrentMileage = usedFuelWithStandardMileage* mileageMultiplier;
         System.out.println("Used fuel with current mileage : " + usedFuelWithCurrentMileage);
