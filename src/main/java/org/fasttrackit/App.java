@@ -15,6 +15,10 @@ public class App
         Game game = new Game();
         game.start();
 
+//        do {
+//            System.out.println("test");
+//        } while (true);
+
 //        // method implementation taken from object's class
 //        // not from the variable's class
 //
