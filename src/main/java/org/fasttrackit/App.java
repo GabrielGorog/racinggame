@@ -9,8 +9,7 @@ import java.sql.SQLOutput;
 public class App 
 {
 
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) throws Exception {
         System.out.println( "Welcome to the Racing Game!" );
 
         Game game = new Game();
